@@ -560,6 +560,7 @@ footer {
 
     .about-tech {
         min-height: 30vh;
+        margin: 0;
     }
 
     .about-tech h3 {
