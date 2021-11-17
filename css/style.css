@@ -135,7 +135,7 @@ ul {
 
 .sec-about {
     width: 100%;
-    height: 54vh;
+    height: 58vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,13 +167,14 @@ article {
 
 .about-tech h3 {
     margin-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--color-secondary);
 }
 
 .about-tech p {
     width: 90%;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    max-height: 50vh;
 }
 
 /*========== Section #1 - Main Content & Infos ==========*/
