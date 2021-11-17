@@ -734,6 +734,10 @@ footer {
         font-size: 1.6rem;
     }
 
+    article {
+        margin-bottom: 0;
+    }
+
     .personal-info {
         font-size: 0.9rem;
     }
