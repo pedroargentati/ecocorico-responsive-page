@@ -129,7 +129,51 @@ ul {
 }
 
 .paragrafo h2 {
+    text-align: center;
     font-size: 2.4vw;
+}
+
+.sec-about {
+    width: 100%;
+    height: 54vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.about-t {
+    margin: 1rem 0;
+    color: var(--color-primary);
+}
+
+article {
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about-tech {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    border-radius: 8px;
+    background-color: #EDEDEB;
+}
+
+.about-tech h3 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: var(--color-secondary);
+}
+
+.about-tech p {
+    width: 90%;
+    font-size: 1rem;
 }
 
 /*========== Section #1 - Main Content & Infos ==========*/
@@ -503,6 +547,28 @@ footer {
         margin: 1rem 0 0 0;
     }
 
+    .sec-about {
+        height: 60vh;
+    }
+
+    .about-t {
+        font-size: 1.2rem;
+    }
+
+    .about-tech {
+        max-height: 60vh;
+        margin: 0;
+    }
+
+    .about-tech h3 {
+        font-size: 0.9rem;
+    }
+
+    .about-tech p {
+        font-size: 0.7rem;
+        max-height: 50%;
+    }
+
     .product-items {
         width: 89%;
     }
@@ -562,6 +628,33 @@ footer {
 
     .product-card {
         font-size: 0.8rem;
+    }
+
+    .sec-about {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    article {
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-tech h3 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .about-tech {
+        margin-bottom: 1rem;
+        width: 80%;
+    }
+
+    .about-tech p {
+        font-size: 0.9rem;
     }
 
     .product-card img {
@@ -671,6 +764,10 @@ footer {
         height: 15rem;
     }
 
+    .about-tech {
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 472px) {
@@ -734,6 +831,18 @@ footer {
     .personal-info {
         font-size: 1rem;
         text-align: justify;
+    }
+
+    .about-tech {
+        width: 97%;
+    }
+
+    .about-tech h3 {
+        font-size: 1rem;
+    }
+
+    .about-tech p {
+        font-size: 0.8rem;
     }
 
     #form-contact {
